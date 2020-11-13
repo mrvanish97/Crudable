@@ -12,6 +12,8 @@ import java.util.stream.Stream;
 
 public class MapCrudable implements EventedCrudable, Serializable {
 
+  private static final long serialVersionUID = 807053702519424353L;
+
   private static class DummyEventHandler implements EventHandler {
 
     @Override
